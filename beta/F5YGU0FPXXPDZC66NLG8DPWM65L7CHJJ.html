@@ -3,7 +3,45 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta charset="utf-8"> 
-<title>Download Page</title> 
+<title>Download Page</title>
+<script type="text/javascript">
+
+  var language =
+
+    localStorage.getItem("locale") ||
+
+    window.navigator.language.toLowerCase() ||
+
+    "en";
+
+  localStorage.setItem("locale", language);
+
+
+  if (language.indexOf("zh-cn") !== -1) {
+
+    window.location = "/zh-cn/index.html";
+
+  } else if (language.indexOf("zh-tw") !== -1) {
+
+    window.location = "/en/index.html";
+
+  } else if (language.indexOf("zh-hk") !== -1) {
+
+    window.location = "/en/index.html";
+
+  } else if (language.indexOf("zh-sg") !== -1) {
+
+    window.location = "/en/index.html";
+
+  }
+  
+  else {
+
+    window.location = "/en/index.html";
+
+  }
+
+</script>
 <style>
     
 body 
