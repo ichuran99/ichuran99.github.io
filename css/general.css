@@ -29,4 +29,11 @@
   text-decoration: none;
 }
 
+body 
+{
+    background-image: url('https://ichuran99.github.io/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
