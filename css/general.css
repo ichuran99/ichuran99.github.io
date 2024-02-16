@@ -1,6 +1,5 @@
 @font-face {
-  font-family: "Open Sans";
+  font-family: "HarmonyOS Sans Regular";
   src:
-    url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+    url("https://ichuran99.github.io/fonts/HarmonyOS-Sans-SC-Regular.woff2") format("woff2");
 }
